@@ -37,7 +37,7 @@ jobs:
       - name: Run Tests
         run: |
           chmod +x mvnw
-          ./mvnw clean test
+          ./mvnw test
 
   deploy:
 
@@ -59,7 +59,8 @@ jobs:
           cache: maven
 
       - name: Build JAR with Maven
-        run: mvn package -DskipTests
+        run: ./mvnw package -DskipTests
+        working-directory: ./app
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
