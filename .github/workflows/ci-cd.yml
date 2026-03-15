@@ -13,6 +13,8 @@ on:
     paths:
       - 'app/**'
 
+  workflow_dispatch:
+
 jobs:
 
   tests:
