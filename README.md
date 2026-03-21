@@ -12,7 +12,7 @@ CI/CD stands for Continuous Integration and Continuous Deployment, a cornerstone
 ## Whats is Infrastructure as Code?
 Infrastructure as Code (IaC) is the practice of managing and provisioning computing infrastructure through machine-readable definition files, rather than manual hardware configuration or interactive dashboard tools. By treating infrastructure the same way as application code, teams can leverage version control, automated testing, and rapid reproducibility. This ensures that environments—from networks to serverless clusters—are consistent, scalable, and easy to recover, significantly reducing the risk of human error during deployment.
 
-## Stack stack
+## Tech Stack
 
 - Java 21 & Spring Boot 3.5
 - Docker
